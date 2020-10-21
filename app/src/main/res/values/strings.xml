@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">TuInventario</string>
+    <string name="name_inv">Inventario</string>
+    <string name="name_canti">Gastos</string>
+    <string name="name_esta">Estadisticas</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="title_activity_inventari">Inventario</string>
+
+    <string name="modo">Cambiar a modo oscuro</string>
+    <string name="guardar">Guardar</string>
+    <string name="nombrecarpeta">Ingresa el nombre de la categoria</string>
+
+    <string name="descricarpeta">Ingresa la descripcion de la categoria</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="activity_title_home">Productos</string>
+    <string name="msg_no_notes">No se encontro algun producto!</string>
+    <string name="lbl_new_note_title">Nuevo producto</string>
+    <string name="lbl_edit_note_title">Editar el producto </string>
+    <string name="hint_enter_note">Ingresa el nombre del producto!</string>
+    <string name="hint_enter_canti">Ingresa la cantidad!</string>
+    <string name="title_activity_ajustes">Ajustes</string>
+    <string name="product">Producto</string>
+    <string name="cantid">Cantidad</string>
+    <string name="foto">Foto del producto</string>
+    <string name="fotocarpeta">Foto de la categoria</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Datos generales</string>
+    <string name="sync_header">Temas</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">El nombre de la empresa</string>
+
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Cambiar a modo oscuro</string>
+
+</resources>

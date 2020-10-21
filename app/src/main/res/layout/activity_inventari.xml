@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/invent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Inventari">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_inventari" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textview_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="116dp"
+            android:layout_marginEnd="88dp"
+            android:background="#212121"
+            android:padding="8dp"
+            android:text="Añadir un producto"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/añadir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="106dp"
+            android:layout_marginEnd="24dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:elevation="16dp"
+            android:focusable="true"
+            android:visibility="invisible"
+            app:backgroundTint="#6200EE"
+            app:pressedTranslationZ="12dp"
+            app:srcCompat="@drawable/addinv" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="32dp"
+            android:layout_marginEnd="24dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:elevation="16dp"
+            android:focusable="true"
+            android:visibility="visible"
+            app:backgroundTint="#6200EE"
+            app:pressedTranslationZ="12dp"
+            app:srcCompat="@drawable/plus" />
+
+    </RelativeLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout >
